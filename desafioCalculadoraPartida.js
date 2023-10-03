@@ -125,12 +125,6 @@ const placarFinal = ( resultado ) => {
   document.querySelector('#placarPlayer').innerHTML = 'Sua classificação é ' + result;
 }
 
-
-/* 
-preciso criar um laço de repetição que me retorne dois
-valores, um para o numero de vitorias e outro para o numero de derrotas
-*/
-
 function placarOponente () {
   let number1 = '';
   let number2 = '';
